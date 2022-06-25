@@ -1,0 +1,6 @@
+{
+    "defaultTitle": "Chi tiết Meme",
+    "usingComponents": {
+       "loading": "components/loading/index"
+    }
+}

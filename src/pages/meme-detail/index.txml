@@ -1,0 +1,6 @@
+
+<image src="{{meme.url}}" class="w-full"/>
+<view class="w-full">{{meme.name}}</view>
+<block tiki:if="{{loading}}">
+    <loading />
+</block>

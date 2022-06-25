@@ -1,0 +1,11 @@
+<image src="../../assets/bn_brand_logo_secondary_color1.png" class="w-full h-full" mode="widthFix"/>
+
+<view class="container">
+  <block tiki:for="{{meme}}">
+    <view class="item" onTap="onTap" data-memeInfo="{{item}}" data-index={{index}}>
+      <image src="{{item.url}}" class="thumb"/>
+      <custom-id id="{{item.id}}"/>
+      <view class="text-medium">{{item.name}}</view>
+    </view>
+  </block>
+</view>

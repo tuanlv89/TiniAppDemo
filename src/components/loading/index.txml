@@ -1,0 +1,4 @@
+
+<view class="container">
+    <lottie loop="{{true}}" autoplay="{{true}}" path="./lottie.json" class="loading" />
+</view>

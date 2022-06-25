@@ -1,0 +1,4 @@
+<import-sjs name="fn" from="./utils.sjs" />
+
+<view>{{fn.formatNumber(id)}} <badge class="ml-small" text="-10%" /></view>
+<view>Author: {{fn.getAuthor()}}</view>

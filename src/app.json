@@ -1,9 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/meme-detail/index"
+    "pages/meme-detail/index",
+    "pages/header-animation/index"
   ],
   "window": {
-    "defaultTitle": "My App"
   }
 }

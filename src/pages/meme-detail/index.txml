@@ -1,6 +1,13 @@
-
-<image src="{{meme.url}}" class="w-full"/>
+<image src="{{meme.url}}" class="w-full" />
 <view class="w-full">{{meme.name}}</view>
+<avatar size="lg" src="https://i.imgur.com/s0nX0xn.jpg" shape="circle" />
+<button type="solid" onTap="onTap">Go to Header Animation</button>
+
+
+
+
+
 <block tiki:if="{{loading}}">
     <loading />
 </block>
+

@@ -20,5 +20,8 @@ Page({
     },
     onUnload() {
         clearTimeout(timeOut)
+    },
+    onTap() {
+        my.navigateTo({url: 'pages/header-animation/index'})
     }
 })

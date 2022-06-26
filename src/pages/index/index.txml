@@ -1,4 +1,15 @@
 <image src="../../assets/bn_brand_logo_secondary_color1.png" class="w-full h-full" mode="widthFix"/>
+<carousel indicator-dots onChange="onChange" autoplay indicator-active-color="green">
+  <carousel-item>
+    <image class="w-full" mode="aspectFill" src="https://picsum.photos/714/327?random=1" />
+  </carousel-item>
+  <carousel-item>
+    <image class="w-full" mode="aspectFill" src="https://picsum.photos/714/327?random=2" />
+  </carousel-item>
+  <carousel-item>
+    <image class="w-full" mode="aspectFill" src="https://picsum.photos/714/327?random=3" />
+  </carousel-item>
+</carousel>
 
 <view class="container">
   <block tiki:for="{{meme}}">

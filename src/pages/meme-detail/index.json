@@ -1,6 +1,7 @@
 {
     "defaultTitle": "Chi tiết Meme",
     "usingComponents": {
-       "loading": "components/loading/index"
+       "loading": "components/loading/index",
+       "avatar": "@tiki.vn/tini-ui/es/avatar/index"
     }
 }

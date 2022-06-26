@@ -1,4 +1,8 @@
-Page({
+import {$page} from 'redux-miniprogram-bindings'
+
+$page({
+  mapState: ['counter']
+})({
   data: {
     meme: []
   },

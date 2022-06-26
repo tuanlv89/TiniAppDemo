@@ -1,7 +1,11 @@
-App({
-  onLaunch(options) {
-    console.log('App onLaunch');
-  },
-  onShow(options) {
-  },
+import { setProvider } from 'redux-miniprogram-bindings';
+
+import store from '@/store';
+
+setProvider({
+  component2: true,
+  store,
+  namespace: '',
 });
+
+App({});
